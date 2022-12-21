@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,400&display=swap');
+
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+
+.loginbody{
+    background-image: url('./src/img/loginimg.jpg');
+    background-size: cover;
+    width: 100vw;
+    height: 100vh; 
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.login-form {
+      width: 400px;
+      margin: 8em auto;
+      background-color: white;
+      border-radius: 5px;
+      padding: 20px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    }
+
+.login-form h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #844817;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    }
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+      width: 100%;
+      border: none;
+      border-bottom: 1px solid #ccc;
+      background-color: transparent;
+      margin-bottom: 20px;
+      padding: 10px;
+      font-size: 16px;
+    }
+.login-form input[type="submit"] {
+      width: 100%;
+      border: none;
+      background-color: #008000;
+      color: white;
+      padding: 10px;
+      font-size: 16px;
+      cursor: pointer;
+      margin-bottom: 1em;
+    }
+
+.login-form a {
+      text-decoration: none;
+      color: #aaa;
+      font-size: 12px;
+      float: right;
+      margin-top: -20px;
+      margin-right: 20px;
+      transition: all 0.3s;
+      cursor: pointer;
+    }
+.login-form a:hover {
+      color: #555;
+    }
